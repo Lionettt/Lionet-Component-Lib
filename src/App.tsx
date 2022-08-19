@@ -66,13 +66,6 @@ function App() {
       <h3>测试一级标题</h3>
       <h2>测试二级标题</h2>
       <h3>测试三级标题</h3>
-      {/* <code>
-        const a = 12
-        let b = 14
-      function name(params:type) {
-
-        }
-      </code> */}
       <h3>这里开始测试transition</h3>
       <Button btnType="primary" onClick={() => setOpen(!open)}>动画切换</Button>
       <Transition animation="zoom-in-top" in={open} timeout={300}>
